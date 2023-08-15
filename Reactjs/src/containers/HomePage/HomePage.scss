@@ -1,0 +1,211 @@
+.slick-prev:before {
+    color    : #959595 !important;
+    font-size: 27px !important;
+}
+
+.slick-prev {
+    // position: relative !important;
+    left      : -20px !important;
+    z-index   : 1000 !important;
+    height    : 46px !important;
+    width     : 48px !important;
+    top       : 47% !important;
+    background: linear-gradient(#f8f9fa87, #eee1e15e) !important;
+    border    : 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #f3efef !important;
+    }
+}
+
+.slick-next:before {
+    color    : #959595 !important;
+    font-size: 27px !important;
+}
+
+.slick-next {
+    right     : -22px !important;
+    height    : 46px !important;
+    width     : 48px !important;
+    top       : 47% !important;
+    background: linear-gradient(#f8f9fa87, #eee1e15e) !important;
+    border    : 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #f3efef !important;
+    }
+}
+
+.slick-disabled {
+    display: none !important;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////// 
+///  
+.section-share {
+    &.section-specialty {
+        background: #fdfdfd;
+        margin-top: 18px;
+    }
+
+    &.section-medical-facility {
+        background: #ececec;
+
+    }
+
+    &.section-hand-book {
+        background: #f5f5f5;
+    }
+
+    &.section-about {
+        height: 500px !important;
+    }
+
+    .section-body {
+        margin-top: 35px;
+
+        .section-customize {
+
+            .bg-img {
+                margin-left        : 9px;
+                height             : 168px;
+                width              : 329px;
+                background-size    : cover;
+                background-repeat  : no-repeat !important;
+                background-position: center center;
+                background-color   : #eee;
+
+                &.section-specialty {
+                    // background-image: url("../../assets/specialty/co-xuong-khop.jpg");
+                }
+
+                &.section-medical-facility {
+                    // background-image: url("../../assets/medicalfacility/lo-go-viet-duc.jpg");
+                    background-size : contain;
+                    background-color: white;
+
+                }
+
+                &.section-outstanding-doctor {
+                    // background-image: url("../../assets/outdoctor/bsckii-tran-minh-khuyen.jpg");
+                    width        : 120px;
+                    height       : 120px;
+                    margin       : 0 auto;
+                    border-radius: 50%;
+
+                }
+
+                &.section-hand-book {
+                    background-image: url("../../assets/handbook/cach-dieu0tri-mun-boc.png");
+                }
+            }
+        }
+    }
+}
+
+.section-share {
+    height    : 330px;
+    margin-top: 0rem;
+
+    .section-container {
+        margin        : 0 350px;
+        display       : flex;
+        flex-direction: column;
+
+        .section-header {
+            height    : 60px;
+            margin-top: 20px;
+
+            .title-section {
+                font-size  : 24px;
+                font-weight: 400;
+            }
+
+            .title-btn {
+                margin-right    : 12px;
+                margin-top      : 9px;
+                padding         : 8px;
+                display         : block;
+                float           : right;
+                border          : none;
+                background-color: #eaeaea;
+                color           : gray;
+                text-transform  : uppercase;
+
+                &:hover {
+                    background: #d7b800;
+                    color     : #fff;
+                }
+            }
+        }
+    }
+}
+
+.section-outstanding-doctor {
+    .outer-bg {
+        display        : flex;
+        justify-content: center;
+        margin-bottom  : 10px;
+    }
+
+    .section-customize {
+        padding: 5px;
+        cursor : pointer;
+
+        .border-customize {
+            border: 1px solid #d4d4d4;
+        }
+
+    }
+
+    .outer-bg {
+        margin: 10px 81px;
+
+    }
+}
+
+.home-footer {
+    text-align: center;
+
+    p {
+        a {
+            text-decoration: unset;
+        }
+    }
+
+}
+
+.section-about {
+    padding: 0 351px;
+
+    .section-about-header {
+        padding    : 20px 0px;
+        font-size  : 24px;
+        font-weight: 600;
+    }
+
+    .section-about-content {
+        display: flex;
+        gap    : 300px;
+        width  : 100%;
+
+        .content-left {
+            width: 60%;
+
+
+        }
+
+        .content-right {
+            width              : 40%;
+            height             : 150px;
+            width              : 278px;
+            background-size    : cover;
+            background-repeat  : no-repeat !important;
+            background-position: center center;
+            background-image   : url("../../assets/vtv-go.jpg");
+
+
+        }
+    }
+
+}

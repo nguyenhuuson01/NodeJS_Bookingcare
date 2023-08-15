@@ -1,0 +1,129 @@
+{
+    "homeheader":{
+        "speciality": "Medical speciality",
+        "searchdoctor":"Find a doctor by specialty",
+        "health-facility":"Health facilities",
+        "select-room": "Choose hospital clinic",
+        "doctor":"Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee":"Examination package",
+        "check-health":"General health check",
+        "support": "Support",
+        "welcome" : "Welcome, "
+    },
+    "banner": {
+        "title1": "MEDICAL PLATFORM",
+        "title2": "COMPREHENSIVE HEALTH CARE",
+        "child1":"examination",
+        "child2":"specialty",
+        "child3":"from afar",
+        "child4":"generality",
+        "child5":"Test",
+        "child6":"medicine",
+        "child7":"Health",
+        "child8":"spirit",
+        "child9":"dentistry",
+        "wrap": "Wrap",
+        "surgery": "surgery",
+        "product": "product",
+        "medical": "medical",
+        "tests": "Tests",
+        "health": "health"
+        
+    },
+
+    "menu": {
+        
+         "admin":{
+            "manage-user": "User management",
+            "manage-doctor": "Doctor management",
+            "manage-admin": "Admin Management",
+            "crud": "CRUD user",
+            "crud-redux": "User management",
+            "clinic": "Clinic",
+            "manage-clinic": "Clinic Manager",
+            "specialty": "Specialty",
+            "manage-specialty": "Specialized management",
+            "handbook": "Handbook",
+            "manage-handbook": "Handbook management"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor schedules",
+            "manage-patient": "Manage Doctor patient"
+        }
+    },
+    "manage-user": {
+        "doctorcrud": "Add new user",
+        "add": "Add User",
+        "email": "Email",
+        "password": "Password",
+        "firstname": "first Name",
+        "lastname": "Last name",
+        "phonenumber":"Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "save": "Save",
+        "img": "Image",
+        "edit": "Edit user"
+    },
+    "homepage": {
+        "outstanding-doctor": "The famous doctor last week",
+        "more-info": "More infor",
+        "popluler": "Popular specialties"
+    },
+
+    "manage-schedule": {
+        "title": "Manage doctor examination plan",
+        "choose-doctor": "Choose doctor",
+        "choose-date": "Choose date",
+        "save": "Save infor"
+
+    },
+    "paitent":{
+        "detail-doctor": "Schedule",
+        "no-schedule": "The doctor does not have an appointment during this time, please choose another time!",
+        "choose": "Choose " ,
+        "book-free": " and book (free)",
+        "pricefree": "Free booking",
+
+        "extra-infor-doctor": {
+            "text-address": "Address of examination",
+            "price":"Examination price:  ",
+            "detail": "See details",
+            "hide-price": "Hide price list",
+            "payment":  "The patient can pay the cost in the form of " 
+        }
+    },
+    "booking":{
+        "frofileusername": "Information to book a medical appointment",
+        "fullname": "Full name",
+        "phone": "Phone number",
+        "addressemail": "Email address",
+        "address": "Address",
+        "reasonforex": "Reason for examination",
+        "birthday": "Date of birth",
+        "sex": "Sex"
+
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Create more information doctor",
+            "select-doctor": "Select doctor",
+            "intro": "Introduction",
+            "add": "create infor",
+            "save":"Save infor",
+            "price": "Price",
+            "payment": "Payment",
+            "provinces": "Provinces",
+            "nameClinic": "Clinic name",
+            "addressClinic": "Clinic address",
+            "notes": "Note",
+            "speciality": "Choose speciality",
+            "clinic": "Choose clinic"
+            
+        }
+    }
+
+}
